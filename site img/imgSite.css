@@ -1,0 +1,58 @@
+body{
+
+    background-image: linear-gradient(to left,#034159,#025951,#02735E,#038C3E,#0CF25D);
+    background-image: url(../plano\ de\ fundo.avif);
+    background-attachment: fixed;
+    max-height: 800vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    text-align: center;
+}
+main{
+    
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+    border-color: #00060D;
+    margin: auto;
+    background-color: white;
+    max-width: 1100px;
+    
+}
+h1{
+
+    color: #fbff01;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-shadow: 5px 5px 10px #0808008f(238, 255, 0, 0.308);
+    background-image: url(../plano\ de\ fundo.avif);
+    max-width: 600px;
+    margin: auto;
+    padding: 15px;
+    
+    
+}
+img{
+    margin: auto;
+}
+#voltar{
+    padding: 20px;
+    margin-left: 30px;
+    width: 50px;
+    height: 15px;
+    border-radius: 25px;
+    background-color: #0000007d;
+}
+#voltar a {
+    color: #000000;
+    background-color: #00000000;
+    text-decoration: none;
+}
+#voltar:hover{
+    transition: 1s;
+    background-color: #000000;
+    color: white;
+}
+#voltar a:hover{
+    transition: 1s;
+    color: white;
+}
