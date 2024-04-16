@@ -1,0 +1,177 @@
+header{
+
+    top: 0px;
+    background-image: linear-gradient(to right,#fbff01,#D9A404,#A67D03,#F2D272,#F2D230);
+    border-radius: 15px;
+    max-width: 1100px;
+    min-width: 300px;
+    height: 40px;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+    
+    
+}
+#icone{
+
+    cursor: pointer;
+    display: block;
+    padding: 2px;
+    margin-top: 5px;
+    width: 50px;
+    height: 25px;
+    margin: auto;
+
+}
+#icone:hover{
+
+    transition: 1s;
+    color: rgb(255, 0, 0);
+    
+    
+}
+#menu{
+
+    max-width: 800px;
+    background-color: #0000007e;
+    font-family: cursive;
+    font-size: 25px; 
+    border-radius: 5px;
+    
+    max-height: 180px;
+    display: none;
+    text-align: center;
+    margin: auto;
+    
+
+}
+.menu2{
+
+    margin: auto;
+    text-align: center;
+    padding: 0;
+    padding: 10px;
+    
+}
+li{
+
+    list-style-type: none;
+    background-color: #F2D230;
+    border-color: #00060D;
+    border: 1px solid;
+    
+    
+}
+div ul li a {
+
+    
+    margin: auto;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    
+  
+
+}
+div ul li a:hover{
+
+    transition: 1s;
+    color: red;
+    border-color: #000000;
+}
+body{
+
+    background-image: linear-gradient(to left,#034159,#025951,#02735E,#038C3E,#0CF25D);
+    background-image: url(plano\ de\ fundo.avif);
+    background-attachment: fixed;
+    max-height: 800vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    text-align: center;
+}
+main{
+    
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+    border-color: #00060D;
+    margin: auto;
+    background-color: white;
+    max-width: 1100px;
+    min-width: 300px;
+    padding: 50px
+
+}
+h1{
+
+    color: #fbff01;
+    margin-top: 10px;
+    border-radius: 25px;
+    text-shadow: 5px 5px 10px #0808008f(238, 255, 0, 0.308);
+    background-image: url(plano\ de\ fundo.avif);
+    max-width: 600px;
+    margin: auto;
+    
+    
+}
+.carousel{
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+main a{
+
+    color: #00060D;
+    margin: auto;
+    background-color: #F2D230;
+    text-decoration: none;
+
+}
+main a:hover{
+    transition: 1s;
+    color: red;
+}
+p{
+
+    text-align: justify;
+    text-indent: 30px;
+    padding: 10px;
+    
+
+    background-color: darkgrey;
+    border-radius: 20px;
+    border-color: #000000;
+    border: 2px solid;
+
+}
+a{
+    text-decoration: none;
+    
+}
+#especial:hover{
+
+    transition: 1s;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    border-color: #000000;
+
+}
+footer p{
+
+    color: rgb(0, 0, 0);
+    background-color: #F2D230;
+    border-radius: 5px;
+    
+
+    text-align: center;
+    max-width: 1100px;
+    min-width: 300px;
+    margin: auto;
+
+}
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
