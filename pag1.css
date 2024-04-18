@@ -113,7 +113,7 @@ h1{
     background-image: url(plano\ de\ fundo.avif);
     max-width: 600px;
     margin: auto;
-    
+    font-family: fantasy;
     
 }
 .carousel{
@@ -135,7 +135,7 @@ main a:hover{
     color: red;
 }
 p{
-
+    font-family: "Roboto", sans-serif;
     text-align: justify;
     text-indent: 30px;
     padding: 10px;
@@ -175,3 +175,5 @@ footer a {
     text-decoration: none;
     color: #000000;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
